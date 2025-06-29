@@ -1,0 +1,111 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+
+# Build artifacts
+/tmp/
+/build/
+/dist/
+main
+quizza
+todoapp
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+*.log
+logs/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Todo app generated files
+*.txt
+todo_lists/
+my_todos.txt
+work_todos.txt
+personal_todos.txt
+
+# Quiz app score files (if any)
+scores.txt
+high_scores.txt
+
+# Configuration files
+config.json
+config.yaml
+config.yml
+
+# Database files (if any future projects use them)
+*.db
+*.sqlite
+*.sqlite3
+
+# Documentation build
+docs/_build/
+docs/site/
+
+# Coverage reports
+coverage.html
+coverage.out
+coverage.txt
+coverage.xml
+
+# Profiling data
+*.prof
+
+# Test cache
+testdata/
+
+# Go module download cache
+go.sum.bak
+
+# User data directories
+data/
+user_data/
+saves/
+
+# Backup files
+*.bak
+*.backup
+
+# Development notes
+notes.md
+TODO.md
+NOTES.txt 
